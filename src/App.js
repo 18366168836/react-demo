@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
-  console.log(11);
+  console.log(111);
   return (
     <Provider store={store}>
       <div className="App">header</div>

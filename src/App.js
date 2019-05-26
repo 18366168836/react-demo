@@ -4,7 +4,6 @@ import store from "./store";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   console.log(11);
-  console.log(12);
   return (
     <Provider store={store}>
       <div className="App">header</div>
